@@ -1,0 +1,8 @@
+center::before {
+  content: attr(text);
+}
+
+center:hover::before {
+  content: attr(hover-text);
+  color: #e07a5f;
+}

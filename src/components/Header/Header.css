@@ -1,0 +1,10 @@
+#btn_add {
+  background-color: #b8c0ff;
+  border: none;
+  color: #9b5de5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#btn_add:hover {
+  background-color: #d3d8e1;
+}

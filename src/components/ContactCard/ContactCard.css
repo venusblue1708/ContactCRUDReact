@@ -1,0 +1,21 @@
+.card {
+  background-image: url(https://i.pinimg.com/236x/1f/43/bf/1f43bfb2c71e3a80fb80dc0e8c29dd36.jpg);
+  background-size: cover;
+}
+.title {
+  color: #585123;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.href {
+  text-decoration: none;
+  color: #6411ad;
+  font-family: "Courier New", Courier, monospace;
+}
+.href:hover {
+  color: #4b1d3f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn_card:hover {
+  background-color: #deab90 !important;
+}
