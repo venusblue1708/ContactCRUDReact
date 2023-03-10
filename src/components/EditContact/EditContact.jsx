@@ -11,7 +11,6 @@ function EditContact({
   handleSave,
 }) {
   const [contactToEdit, setContactToEdit] = useState(editContact);
-  console.log(editContact);
   useEffect(() => {
     setContactToEdit(editContact);
   }, [editContact]);
@@ -44,7 +43,6 @@ function EditContact({
     };
     setContactToEdit(newObj);
   };
-  console.log(contactToEdit);
   return (
     <>
       <Modal show={showEditModal} onHide={handleEditClose}>
